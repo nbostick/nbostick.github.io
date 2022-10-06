@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	position: center;
+	margin-left: 60px;
+	margin-right: 25px;
+	text-shadow: 2px 0px lightgrey;
+}
+
+li{
+	display: inline-block;
+	position: center;
+	padding: 10px 10px;
+}
+
+
+a{
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: grey;
+	text-decoration: none;
+	font-family: geramond;
+	font-size: 25px;
+}
+
+a:hover{
+	color: lavender;
+	transition: 0.5s;
+}
+
+body 
+{
+	background-image: url(longearrings.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1{
+
+	margin-left: 70px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: geramond;
+	font-size: 20px;
+	color: tan;
+	text-shadow: 2px 0px 2px lightgrey;
+}
+
+p{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-family: times-roman;
+	color: white;
+}
+
+img {
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 150px;
+	border: 2px solid grey;
+	transition: transform 2s;
+}
+
+img:hover{
+	transform: scale(1.2);
+	cursor: zoom-in;
+}
+
+
+
+button{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 60px;
+	padding: 5px 10px 5px 10px;
+	width: 100px;
+	text-decoration: none;
+	border: 3px lavender;
+	border-radius: 14px;
+	color: lavender;
+	background-color: grey;
+	font-family: geromond;
+	font-size: 12px;
+}
+
+.btn:hover{
+	text-transform: uppercase;
+}
+form{
+	margin: 35px;
+}
+ 	.input-field
+ 	{
+ 		width: 300px;
+ 		height: 40px;
+ 		margin-top: 20px;
+ 		margin-bottom: 20px;
+ 		margin-left: 20px;
+ 		margin-right: 60px;
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+ 		border: 1px solid grey;
+ 		border-radius: 14px;
+ 		outline: none;
+ 	}
+
+ 	.textarea-field
+ 	{
+ 		height: 100px;
+ 		width: 300px;
+ 		padding-top: 10px;
+ 	}
+
+footer{
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: pink;
+	font-family: cursive;
+	font-size: 14px;
+}
+
+</body>
+</html>
