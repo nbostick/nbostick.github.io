@@ -36,7 +36,7 @@ a:hover{
 	transition: 0.5s;
 }
 
-body 
+html 
 {
 	background-image: url(longearrings.jpg);
 	background-repeat: no-repeat;
